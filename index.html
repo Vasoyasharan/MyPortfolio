@@ -1,213 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="profani.css"/>
+    
+    <title>My Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <link rel="stylesheet" href="profani.css" />
+  <body class="font-sans bg-gray-100">
+    <header
+      class="bg-black text-white py-4 px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between"
+    >
+      <a class="text-lg font-bold mb-2 sm:mb-0" href="#">VASOYA SHARAN</a>
+      <nav class="flex mt-4 sm:mt-0">
+        <a class="text-yellow-400 ml-4 no-underline" href="#about">About</a>
+        <a class="text-yellow-400 ml-4 no-underline" href="#skills">Skills</a>
+        <a class="text-yellow-400 ml-4 no-underline" href="#experience"
+          >Experience</a
+        >
+        <a class="text-yellow-400 ml-4 no-underline" href="#project">Projects</a>
+        <a class="text-yellow-400 ml-4 no-underline" href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <title>My Portfolio</title>
-</head>
-
-<body class="font-sans bg-gray-100">
-  <header class="bg-black text-white py-4 px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between">
-    <a class="text-lg font-bold mb-2 sm:mb-0" href="#">VASOYA SHARAN</a>
-    <nav class="flex mt-4 sm:mt-0">
-      <a class="text-yellow-400 ml-4 no-underline" href="#about">About</a>
-      <a class="text-yellow-400 ml-4 no-underline" href="#skills">Skills</a>
-      <a class="text-yellow-400 ml-4 no-underline" href="#experience">Experience</a>
-      <a class="text-yellow-400 ml-4 no-underline" href="#project">Projects</a>
-      <a class="text-yellow-400 ml-4 no-underline" href="#service">Service</a>
-      <a class="text-yellow-400 ml-4 no-underline" href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <section class="py-6 px-4 sm:px-8 bg-black flex flex-col md:flex-row items-center" id="about">
-    <div class="box w-32 h-32 md:w-40 md:h-40 overflow-hidden rounded-full mb-4 md:mr-8 md:mb-0">
-      <div class="content">
-        <img class="w-full h-full object-cover" src="image/sharan1.jpg" alt="Profile Image" />
+    <section
+      class="py-6 px-4 sm:px-8 bg-black flex flex-col md:flex-row items-center"
+      id="about"
+    >
+      <div
+        class="box w-32 h-32 md:w-40 md:h-40 overflow-hidden rounded-full mb-4 md:mr-8 md:mb-0"
+      >
+          <div class="content">
+        <img
+          class="w-full h-full object-cover"
+          src="image/sharan1.jpg"
+          alt="Profile Image"
+        />
+       </div>
       </div>
-    </div>
-    <div class="max-w-md text-center md:text-left">
-      <h2 class="text-lg md:text-2xl font-bold text-yellow-400 mb-2">
-        <strong>About Me</strong>
+      <div class="max-w-md text-center md:text-left">
+        <h2 class="text-lg md:text-2xl font-bold text-yellow-400 mb-2">
+          <strong>About Me</strong>
+        </h2>
+        <p class="text-sm md:text-base text-white">
+          Detail-oriented web developer with expertise in front-end development
+          and UI/UX design. Skilled in utilizing frameworks like React and
+          Angular to build scalable and interactive web applications. Committed
+          to delivering seamless user experiences through clean and efficient
+          code.
+        </p>
+      </div>
+    </section>
+
+    <section class="py-6 px-4 sm:px-8 bg-black text-white" id="skills">
+      <h2 class="text-lg md:text-xl lg:text-2xl font-bold text-yellow-400 text-center mb-4">
+        <strong>Skills</strong>
       </h2>
-      <p class="text-sm md:text-base text-white">
-        Detail-oriented web developer with expertise in front-end development
-        and UI/UX design. Skilled in utilizing frameworks like React and
-        Angular to build scalable and interactive web applications. Committed
-        to delivering seamless user experiences through clean and efficient
-        code.
-      </p>
-    </div>
-  </section>
 
-  <section class="py-6 px-4 sm:px-8 bg-black text-white" id="skills">
-    <h1 class="sub-title">My <span>Skills</span></h1>
-    <!-- <h2 class="text-lg md:text-xl lg:text-2xl font-bold text-yellow-400 text-center mb-4">
-      <strong>Skills</strong>
-    </h2> -->
-
-    <h2 class="text-yellow-400"><strong>Technical Skills</strong></h2>
-    <ul class="list-disc pl-4">
-      <li>Databases</li>
-      <li>Version Control</li>
-      <li>Responsive Design</li>
-      <li>Front-end Development</li>
-      <li>Frameworks and Libraries</li>
-    </ul>
-    <br />
-    <h2 class="text-yellow-400"><strong>Soft Skills</strong></h2>
-    <ul class="list-disc pl-4">
-      <li>Agility</li>
-      <li>Teamwork</li>
-      <li>Communication</li>
-      <li>Time Management</li>
-      <li>Problem-Solving</li>
-      <li>Project Management</li>
-    </ul>
-
-    <br />
-
-    <h2 class="text-yellow-400"><strong>Bonus Skills</strong></h2>
-    <ul class="list-disc pl-4">
-      <li>SDLC</li>
-      <li>UX/UI Design</li>
-    </ul>
-  </section>
-
-  <section class="py-6 px-4 sm:px-8 bg-black text-white" id="experience">
-  
-  <h1 class="sub-title">My <span>Experience</span></h1>
-  
-    <!-- <h2 class="text-lg md:text-xl lg:text-2xl text-yellow-400 font-bold text-center mb-4">
-      <strong>Experience</strong>
-    </h2> -->
-
-    <br />
-    <div class="mb-8">
-      <h3 class="text-white"><b>Role :</b> Front-end Developer</h3>
-      <p class="text-yellow-400"><b>Company : </b>Blue Soft Info-tech</p>
-      <p class="text-white"><b>Duration : </b>2 Months</p>
-    </div>
-    <div class="mb-8">
-      <h3 class="text-white"><b>Role : </b>Front-end Developer</h3>
-      <p class="text-yellow-400"><b>Company : </b>Depthin Solution</p>
-      <p class="text-white"><b>Duration : </b>8* Months</p>
-    </div>
-    <!-- Add more job experiences if needed -->
-  </section>
-
-  <section class="py-6 px-4 sm:px-8 bg-black text-white" id="project">
-    <h1 class="sub-title">My <span>Project</span></h1>
-    <h6 class="text-center mb-4">(Click On Project To View It)</h6>
-
-    <br />
-    <div class="mb-8">
+      <h2 class="text-yellow-400"><strong>Technical Skills</strong></h2>
       <ul class="list-disc pl-4">
-        <li class="text-yellow-400">
-          <a href="https://vasoyasharan.github.io/Lord-Krishna/">Lord Krishna By CSS</a>
-        </li>
-        <li>
-          <a href="https://vasoyasharan.github.io/WD-PROJECT/">Mico Hospital</a><br />
-        </li>
-        <li class="text-yellow-400">
-          <a href="https://vasoyasharan.github.io/Avengers-Logo/">Avenger Logo</a><br />
-        </li>
-        <li>
-          <a href="https://vasoyasharan.github.io/Iron-Man-ARC-Reactor/">Iron Man Arc Reactor</a><br />
-        </li>
-        <li class="text-yellow-400">
-          <a href="https://vasoyasharan.github.io/Dr.-strange-eye-of-Agamotto/">Eye Of Agamotto</a><br />
-        </li>
-        <li>
-          <a href="https://vasoyasharan.github.io/Pipe-Game/">Tube Game</a><br />
-        </li>
-        <li class="text-yellow-400">
-          <a href="https://vasoyasharan.github.io/Tic-Tak-Toe/">Tic-Tak-Toe</a>
-        </li>
-        <li>
-          <a href="https://vasoyasharan.github.io/2K24-goals-/">2K24 Goals List</a>
-        </li>
+        <li>Databases</li>
+        <li>Version Control</li>
+        <li>Responsive Design</li>
+        <li>Front-end Development</li>
+        <li>Frameworks and Libraries</li>
       </ul>
-    </div>
-  </section>
+      <br />
+      <h2 class="text-yellow-400"><strong>Soft Skills</strong></h2>
+      <ul class="list-disc pl-4">
+        <li>Agility</li>
+        <li>Teamwork</li>
+        <li>Communication</li>
+        <li>Time Management</li>
+        <li>Problem-Solving</li>
+        <li>Project Management</li>
+      </ul>
 
-  <section id="Services">
-    <div class="project">
-      <div class="container">
-        <h1 class="sub-title">My <span>Services</span></h1>
-        <div class="prj-list">
-          <div>
-            <i class='bx bx-code' style="color: #000000;"></i>
-            <h2>Web Development</h2>
-            <p>Plan, create and code internet sites and web pages with modern and artful design.</p>
+      <br />
 
-          </div>
-          <div>
-            <i class='bx bx-cube' style="color: #000000;"></i>
-            <h2>UI / UX Design</h2>
-            <p>Specialized in creating clean, artful design that are both intuitive and functional.</p>
+      <h2 class="text-yellow-400"><strong>Bonus Skills</strong></h2>
+      <ul class="list-disc pl-4">
+        <li>SDLC</li>
+        <li>UX/UI Design</li>
+      </ul>
+    </section>
 
-          </div>
+    <section class="py-6 px-4 sm:px-8 bg-black" id="experience">
+      <h2 class="text-lg md:text-xl lg:text-2xl text-yellow-400 font-bold text-center mb-4">
+        <strong>Experience</strong>
+      </h2>
 
-        </div>
+      <br />
+      <div class="mb-8">
+        <h3 class="text-white"><b>Role :</b> Front-end Developer</h3>
+        <p class="text-yellow-400"><b>Company : </b>Blue Soft Info-tech</p>
+        <p class="text-white"><b>Duration : </b>2 Months</p>
       </div>
-    </div>
-  </section>
+      <div class="mb-8">
+        <h3 class="text-white"><b>Role : </b>Front-end Developer</h3>
+        <p class="text-yellow-400"><b>Company : </b>Depthin Solution</p>
+        <p class="text-white"><b>Duration : </b>8* Months</p>
+      </div>
+      <!-- Add more job experiences if needed -->
+    </section>
 
-  <section class="py-6 px-4 sm:px-8 bg-black text-white" id="contact">
-    <h1 class="sub-title">Contact <span>Me</span></h1>
-    <!-- <h2 class="text-lg md:text-xl lg:text-2xl text-yellow-400 font-bold text-center mb-4">
-      <strong>Personal Info</strong>
-    </h2> -->
+    <section class="py-6 px-4 sm:px-8 bg-black text-white" id="project">
+      <h2 class="text-lg md:text-xl lg:text-2xl text-yellow-400 font-bold text-center mb-4">
+        <strong>My Projects</strong>
+      </h2>
+      <h6 class="text-center mb-4">(Click On Project To View It)</h6>
 
-    <div class="mb-8">
-      <h3 class="text-white"><b class="text-yellow-400">Name :</b> Vasoya Sharan</h3>
-      <p class="text-white"><b class="text-yellow-400">Email : </b>Sharanvasoya@gmail.com</p>
-      <p class="text-white"><b class="text-yellow-400">Phone : </b>8866220515</p>
-      <p class="text-white"><b class="text-yellow-400">City : </b>Surat</p>
-      <p class="text-white"><b class="text-yellow-400">Degree : </b>B.C.A (perusing)</p>
-      <p class="text-white"><b class="text-yellow-400">University : </b>V.N.S.G.U</p>
-    </div>
-    <h3 class="text-white">OR Click On The Link Below</h3>
-    <div class=" link-icon flex">
-      <a class="text-yellow-400 text-2xl mx-2" href="https://www.linkedin.com/in/sharan-vasoya-b6a21824a"><i
-          class="fab fa-linkedin"></i></a>
-      <a class="text-yellow-400 text-2xl mx-2" href="https://www.facebook.com/profile.php?id=100084131319793"><i
-          class="fab fa-facebook"></i></a>
-      <a class="text-yellow-400 text-2xl mx-2" href="https://github.com/Vasoyasharan"><i class="fab fa-github"></i></a>
-      <a class="text-yellow-400 text-2xl mx-2" href="https://instagram.com/sharan_vasoya_07?igshid=ZDdkNTZiNTM="><i
-          class="fab fa-instagram"></i></a>
-    </div>
-  </section>
+      <br />
+      <div class="mb-8">
+        <ul class="list-disc pl-4">
+          <li class="text-yellow-400">
+            <a href="https://vasoyasharan.github.io/Lord-Krishna/"
+              >Lord Krishna By CSS</a
+            >
+          </li>
+          <li>
+            <a href="https://vasoyasharan.github.io/WD-PROJECT/"
+              >Mico Hospital</a
+            ><br />
+          </li>
+          <li class="text-yellow-400">
+            <a href="https://vasoyasharan.github.io/Avengers-Logo/"
+              >Avenger Logo</a
+            ><br />
+          </li>
+          <li>
+            <a href="https://vasoyasharan.github.io/Iron-Man-ARC-Reactor/"
+              >Iron Man Arc Reactor</a
+            ><br />
+          </li>
+          <li class="text-yellow-400">
+            <a
+              href="https://vasoyasharan.github.io/Dr.-strange-eye-of-Agamotto/"
+              >Eye Of Agamotto</a
+            ><br />
+          </li>
+          <li>
+            <a href="https://vasoyasharan.github.io/Pipe-Game/">Tube Game</a
+            ><br />
+          </li>
+          <li class="text-yellow-400">
+            <a href="https://vasoyasharan.github.io/Tic-Tak-Toe/"
+              >Tic-Tak-Toe</a
+            >
+          </li>
+          <li>
+            <a href="https://vasoyasharan.github.io/2K24-goals-/"
+              >2K24 Goals List</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
 
-  <footer class="py-4 px-4 sm:px-8 bg-black text-white text-center">
-    <p class="text-sm md:text-base">
-      &copy; <span id="displayYear"></span> All Rights Reserved By
-      <a class="text-yellow-400"
-        href="https://www.google.com/search?sca_esv=586873451&sxsrf=AM9HkKlR6n-sWKgd8BcN_pgeAoVxt8Zm3g:1701410400920&q=Sharan+Vasoya&stick=H4sIAAAAAAAAAOOwesSozi3w8sc9YSm5SWtOXmOU4BLzSsxLLEl0LkpNLEkNTk0sSs5wTixK4VnEyhuckViUmKcQllicX5kIAEwmvPM8AAAA&sa=X&ved=2ahUKEwjA6MDUx-2CAxV1a2wGHdQHAPgQnJoFegQINBAG&biw=1322&bih=637&dpr=1">Sharan
-        Vasoya
-      </a>
-    </p>
-  </footer>
+    <section class="py-6 px-4 sm:px-8 bg-black" id="contact">
+      <h2 class="text-lg md:text-xl lg:text-2xl text-yellow-400 font-bold text-center mb-4">
+        <strong>Personal Info</strong>
+      </h2>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Smooth scrolling when clicking on navigation links
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
+      <div class="mb-8">
+        <h3 class="text-white"><b class="text-yellow-400">Name :</b> Vasoya Sharan</h3>
+        <p class="text-white"><b class="text-yellow-400">Email : </b>Sharanvasoya@gmail.com</p>
+        <p class="text-white"><b class="text-yellow-400">Phone : </b>8866220515</p>
+        <p class="text-white"><b class="text-yellow-400">City : </b>Surat</p>
+        <p class="text-white"><b class="text-yellow-400">Degree : </b>B.C.A (perusing)</p>
+        <p class="text-white"><b class="text-yellow-400">University : </b>V.N.S.G.U</p>
+      </div>
+      <h3 class="text-white">OR Click On The Link Below</h3>
+      <div class="flex">
+        <a
+          class="text-yellow-400 text-2xl mx-2"
+          href="https://www.linkedin.com/in/sharan-vasoya-b6a21824a"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          class="text-yellow-400 text-2xl mx-2"
+          href="https://www.facebook.com/profile.php?id=100084131319793"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          class="text-yellow-400 text-2xl mx-2"
+          href="https://github.com/Vasoyasharan"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          class="text-yellow-400 text-2xl mx-2"
+          href="https://instagram.com/sharan_vasoya_07?igshid=ZDdkNTZiNTM="
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </section>
 
-          document.querySelector(this.getAttribute("href")).scrollIntoView({
-            behavior: "smooth",
+    <footer class="py-4 px-4 sm:px-8 bg-black text-white text-center">
+      <p class="text-sm md:text-base">
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a
+          class="text-yellow-400"
+          href="https://www.google.com/search?sca_esv=586873451&sxsrf=AM9HkKlR6n-sWKgd8BcN_pgeAoVxt8Zm3g:1701410400920&q=Sharan+Vasoya&stick=H4sIAAAAAAAAAOOwesSozi3w8sc9YSm5SWtOXmOU4BLzSsxLLEl0LkpNLEkNTk0sSs5wTixK4VnEyhuckViUmKcQllicX5kIAEwmvPM8AAAA&sa=X&ved=2ahUKEwjA6MDUx-2CAxV1a2wGHdQHAPgQnJoFegQINBAG&biw=1322&bih=637&dpr=1"
+          >Sharan Vasoya
+        </a>
+      </p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Smooth scrolling when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute("href")).scrollIntoView({
+              behavior: "smooth",
+            });
           });
         });
       });
-    });
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
